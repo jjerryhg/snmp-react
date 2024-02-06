@@ -1,0 +1,34 @@
+.reports-page {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 120px;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.system-select {
+    position: fixed;
+    top: 140px;
+    left: 260px;
+}
+
+.sysInfo-wrapper {
+    display: flex;
+    flex-direction: column;
+    color: lightgray;
+    padding: 20px;
+    background-color: #323741;
+    border-radius: 10px;
+}
+
+.sysInfo-container {
+    display: flex; 
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.sysInfo-container p {
+    margin-left: 10px;
+}
+
+

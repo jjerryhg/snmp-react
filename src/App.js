@@ -1,24 +1,22 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
+import LiveClock from "./features/LiveClock";
 import './App.css';
 
 function App() {
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className='home-title'>
+        <h2>Home Page</h2>
+      </div>
+      <div className='started-button'>
+        <Link to='/dashboard'>Get Started</Link>
+        <Link to='/Login'>Login Test</Link>
+        <Link to='/registration'>Registration Test</Link>
+      </div>
+    </>
   );
 }
 

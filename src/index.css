@@ -1,13 +1,67 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap");
+
+
+* {
+  font-family: "Poppins", sans-serif;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  height: 100vh;
+  width: 100%;
+  background-color: #2B2D36;
+  /* background-color: #ffff; */
 }
+
+.live-clock-container {
+  display: flex;
+  background-color: #323741;
+  color: lightgray;
+  flex-direction: column;
+  min-width: 200px;
+  text-align: center;
+  border-radius: 10px;
+  position: relative;
+}
+
+.live-clock-title {
+  font-size: 18px;
+  font-weight: 600;
+  top: 10px;
+  left: 20px;
+  position: absolute;
+}
+
+.live-clock-content {
+  padding: 80px 0 30px 0;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.cpu-container {
+  display: flex;
+  background-color: #323741;
+  color: lightgray;
+  flex-direction: column;
+  min-width: 200px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.cpu-title {
+  font-size: 18px;
+  font-weight: 600;
+  top: 10px;
+  left: 20px;
+  position: absolute;
+}
+
+.cpu-content {
+  padding: 50px 0 10px 0;
+  font-size: 30px;
+  font-weight: 500;
+  color: white;
+}
+
+
